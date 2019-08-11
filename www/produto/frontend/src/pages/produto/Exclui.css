@@ -1,0 +1,43 @@
+.exclui-container {
+    height: 100%;
+    display: flex;
+    justify-content: center; /* alinhamento horizontal (coluna) */
+    align-items: center; /* alinhamento vertical (linha) */
+}
+
+.exclui-container div {
+	width: 100%;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+.exclui-container footer {	
+	display: grid;	
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+}
+
+.exclui-container button {
+	margin-top: 10px;
+	border: 0;
+	border-radius: 4px;
+	height: 48px;
+	font-size: 16px;	
+	font-weight: bold;
+	color: #696969;	
+}
+
+.exclui-container button[id="confirma"] {
+	margin-top: 10px;
+	border: 0;
+	border-radius: 4px;
+	height: 48px;
+	font-size: 16px;
+    background: #b22222;
+	font-weight: bold;
+	color: #fff;
+}
+
+    
+    
